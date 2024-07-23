@@ -1,8 +1,9 @@
 {
   "name": "devforum-search",
+  "publisher": "veternitzz",
   "displayName": "Devforum Search",
   "description": "An extension that lets you search the Roblox devforum straight from your code editor.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.91.0"
   },
