@@ -13,9 +13,16 @@
   "main": "./extension.js",
   "contributes": {
     "commands": [{
-      "command": "devforum-search.helloWorld",
-      "title": "Hello World"
-    }]
+      "command": "devforum-search.search-devforum",
+      "title": "Search the devforum",
+      "shortTitle": "Devforum Search"
+    },
+    {
+      "command": "devforum-search.view-github",
+      "title": "View devforum search on Github",
+      "shortTitle": "View on Github!"
+    }
+  ]
   },
   "scripts": {
     "lint": "eslint .",
